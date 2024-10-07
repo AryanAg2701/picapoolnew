@@ -2,6 +2,7 @@ import React from 'react';
 import PicapoolLandingPage from './picatest';
 
 import './styles.css';
+import './index.css';
 
 const App: React.FC = () => {
   return (

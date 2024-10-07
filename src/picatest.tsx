@@ -61,13 +61,13 @@ import Pica from './pica';
 
 const PicapoolLandingPage:React.FC = () => {
   return (
-    <div className={styles.home}>
-      <div className={styles.div}>
-        <div className={styles.div2}>
-          <img loading="lazy" src={image1} className={styles.img} />
-          <img loading="lazy" src={image2} className={styles.img2} />
+    <div className="bg-[var(--bg-white,#f7f7f7)] overflow-hidden flex flex-col items-center">
+      <div className=" bg-[var(--bg-white,#f7f7f7)] shadow-md self-stretch flex flex-wrap justify-between gap-5 px-20 py-5 w-full md:max-w-full md:px-20">
+        <div className="flex gap-[14px]">
+          <img loading="lazy" src={image1} className="aspect-ratio-1 object-contain object-center w-[46px]" />
+          <img loading="lazy" src={image2} className="aspect-ratio-[4.08] object-contain object-center w-[106px] max-w-full mx-auto mb-0 mt-0 fill-primaryOrange" />
         </div>
-        <div className={styles.div3}>
+        <div className="flex gap-x-[50px] gap-y-[40px] flex-wrap mx-auto my-0 font-[poppins,sans-serif]">
 
           <div className={styles.div4}>
             <div className={styles.div5}>
@@ -104,7 +104,7 @@ const PicapoolLandingPage:React.FC = () => {
           </div>
         </div>
       </div>
-      <div className={styles.div8}>
+      <div className="w-full max-w-3xl mx-auto mt-14 ml-3.75">
         <div className={styles.div9}>
           <div className={styles.column}>
             <div className={styles.div10}>
